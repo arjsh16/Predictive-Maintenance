@@ -1,0 +1,5 @@
+Model,F1,Precision,Recall,ROC-AUC
+Logistic Regression,0.4,0.25,1.0,0.5
+Naive Bayes,0.4,0.25,1.0,0.5
+Random Forest (PCA),0.4,0.25,1.0,0.5
+Decision Tree,0.0,0.0,0.0,0.5

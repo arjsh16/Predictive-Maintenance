@@ -1,0 +1,88 @@
+|--- sensor11 <= 0.50
+|   |--- sensor4 <= 0.56
+|   |   |--- sensor20 <= 0.30
+|   |   |   |--- sensor9 <= 0.46
+|   |   |   |   |--- sensor7 <= 0.42
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- sensor7 >  0.42
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- sensor9 >  0.46
+|   |   |   |   |--- sensor4 <= 0.37
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- sensor4 >  0.37
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- sensor20 >  0.30
+|   |   |   |--- sensor7 <= 0.45
+|   |   |   |   |--- sensor21 <= 0.45
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- sensor21 >  0.45
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- sensor7 >  0.45
+|   |   |   |   |--- sensor21 <= 0.24
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- sensor21 >  0.24
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |--- sensor4 >  0.56
+|   |   |--- sensor12 <= 0.49
+|   |   |   |--- sensor9 <= 0.49
+|   |   |   |   |--- sensor13 <= 0.60
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- sensor13 >  0.60
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |--- sensor9 >  0.49
+|   |   |   |   |--- sensor7 <= 0.60
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- sensor7 >  0.60
+|   |   |   |   |   |--- class: 0
+|   |   |--- sensor12 >  0.49
+|   |   |   |--- sensor11 <= 0.38
+|   |   |   |   |--- class: 0
+|   |   |   |--- sensor11 >  0.38
+|   |   |   |   |--- sensor21 <= 0.51
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- sensor21 >  0.51
+|   |   |   |   |   |--- truncated branch of depth 2
+|--- sensor11 >  0.50
+|   |--- sensor12 <= 0.45
+|   |   |--- sensor4 <= 0.55
+|   |   |   |--- sensor8 <= 0.51
+|   |   |   |   |--- sensor14 <= 0.38
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- sensor14 >  0.38
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- sensor8 >  0.51
+|   |   |   |   |--- sensor7 <= 0.47
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- sensor7 >  0.47
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- sensor4 >  0.55
+|   |   |   |--- sensor11 <= 0.62
+|   |   |   |   |--- sensor2 <= 0.45
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- sensor2 >  0.45
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- sensor11 >  0.62
+|   |   |   |   |--- sensor7 <= 0.42
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- sensor7 >  0.42
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |--- sensor12 >  0.45
+|   |   |--- sensor4 <= 0.54
+|   |   |   |--- sensor7 <= 0.55
+|   |   |   |   |--- sensor3 <= 0.47
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- sensor3 >  0.47
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- sensor7 >  0.55
+|   |   |   |   |--- sensor11 <= 0.51
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- sensor11 >  0.51
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |--- sensor4 >  0.54
+|   |   |   |--- sensor15 <= 0.38
+|   |   |   |   |--- class: 0
+|   |   |   |--- sensor15 >  0.38
+|   |   |   |   |--- sensor2 <= 0.56
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- sensor2 >  0.56
+|   |   |   |   |   |--- truncated branch of depth 4
